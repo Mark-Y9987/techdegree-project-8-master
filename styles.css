@@ -90,7 +90,7 @@ footer {
 	transform: rotate(360deg);
 }
 
-#desktop__logo--header {
+#logo__text {
 	display: none;
 }
 
@@ -160,11 +160,11 @@ footer {
 /*  Media Queries */
 
 @media (min-width: 425px) {
-	#logo__text {
+	#desktop__logo--header {
 		display: none;
 	}
 
-	#desktop__logo--header {
+	#logo__text {
 		display: block;
 	}
 }
